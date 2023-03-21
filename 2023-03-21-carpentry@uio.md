@@ -95,3 +95,6 @@ Holder foredragene på engelsk.
 ```bash
 awk 'BEGIN{OFS=" ; "} {if (FNR == 1) wellname = $3 ; if (FNR > 4) print wellname, $1, $2}' *
 ```
+
+* `BEGIN` kjører før selve programmet.
+* `FNR` er fieldrecord-number, eller linjenummer som begynner å telle på 1.
