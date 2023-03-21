@@ -81,3 +81,7 @@ https://etherpad.wikimedia.org/p/230321_ttshell
 * `find . -name '*.txt'`
 * `find . | grep txt`
 * `find . -maxdepth 2` for å unngå å søke i alt. Eller `-mindepth 2`.
+* `find . -name '*.txt' | xargs wc -l` for å se lengden på alle filene.
+* `du -hs *`, for å se mappestørrelse.
+* `for f in $(find -name '*.txt'); do wc -l $f; done`, i stedet for xargs.
+* 
