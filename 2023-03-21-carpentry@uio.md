@@ -85,3 +85,5 @@ https://etherpad.wikimedia.org/p/230321_ttshell
 * `du -hs *`, for å se mappestørrelse.
 * `for f in $(find -name '*.txt'); do wc -l $f; done`, i stedet for xargs.
 * 
+
+### Pause 2
