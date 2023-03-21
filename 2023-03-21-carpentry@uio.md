@@ -1,10 +1,11 @@
-# Notater fra carpentry@uio
+# Notater fra carpentry@uio 2023-03-21
 
 * https://etherpad.wikimedia.org/p/230321_ttshell
 * https://blog.dghubble.io/posts/.bashprofile-.profile-and-.bashrc-conventions/
 * https://github.com/lexnederbragt/230321_ttshell/
 
-2023-03-21
+Holder foredragene på engelsk.
+
 
 * To hjelpere, som hjelper mens man fortsetter.
   * Repeterer mens hjelp foregår, eller går videre med ekstra-materiell.
@@ -86,8 +87,11 @@
 * `find . -name '*.txt' | xargs wc -l` for å se lengden på alle filene.
 * `du -hs *`, for å se mappestørrelse.
 * `for f in $(find -name '*.txt'); do wc -l $f; done`, i stedet for xargs.
-* 
 
 ### Pause 2 (15)
 
+`awk` i katalogen `data/wells`.
 
+```bash
+awk 'BEGIN{OFS=" ; "} {if (FNR == 1) wellname = $3 ; if (FNR > 4) print wellname, $1, $2}' *
+```
