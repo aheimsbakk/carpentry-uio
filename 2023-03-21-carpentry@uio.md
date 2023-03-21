@@ -98,3 +98,5 @@ awk 'BEGIN{OFS=" ; "} {if (FNR == 1) wellname = $3 ; if (FNR > 4) print wellname
 
 * `BEGIN` kjører før selve programmet.
 * `FNR` er fieldrecord-number, eller linjenummer som begynner å telle på 1.
+
+Siste del er et eksempel som brukes i praksis av en forsker.
