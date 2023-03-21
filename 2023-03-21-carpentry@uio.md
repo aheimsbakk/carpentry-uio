@@ -1,6 +1,8 @@
 # Notater fra carpentry@uio
 
-https://etherpad.wikimedia.org/p/230321_ttshell
+* https://etherpad.wikimedia.org/p/230321_ttshell
+* https://blog.dghubble.io/posts/.bashprofile-.profile-and-.bashrc-conventions/
+* https://github.com/lexnederbragt/230321_ttshell/
 
 2023-03-21
 
@@ -34,7 +36,7 @@ https://etherpad.wikimedia.org/p/230321_ttshell
 * `CTRL+D` samme som `exit`.
 * Pause, liten oppsumering og svare på spørsmål så langt i plenum.
 
-### Pause 1
+### Pause 1 (5)
 
 #### `history`
 
@@ -50,7 +52,7 @@ https://etherpad.wikimedia.org/p/230321_ttshell
 * `cd !$`, få ut siste argumentet av siste komando.
 * Repeter hovedpunktene fra `history`.
 
-####
+#### cat-ish
 
 * Autocomplete, med `TAB`.
 * `cat -t gapminderDataFiveYear.txt | head`, visal tab.
@@ -86,4 +88,6 @@ https://etherpad.wikimedia.org/p/230321_ttshell
 * `for f in $(find -name '*.txt'); do wc -l $f; done`, i stedet for xargs.
 * 
 
-### Pause 2
+### Pause 2 (15)
+
+
